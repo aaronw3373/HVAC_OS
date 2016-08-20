@@ -374,3 +374,9 @@ body {
   width: 260px;
   height: 58px;
  }
+@media (max-width: 500px) {
+  .top-logo{
+    width: 200px;
+    height: 58px;
+   }
+}
