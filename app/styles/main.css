@@ -151,7 +151,7 @@ a:focus {
   padding: 0;
   text-align: center;
   color: black;
-  background: url(./app/images/hvac1.jpg) no-repeat bottom center scroll;
+  background: url(../images/hvac1.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -369,7 +369,7 @@ body {
 }
 .top-logo{
   float: right;
-  background: url(../app/images/logo1.png) no-repeat top center;
+  background: url(../images/logo1.png) no-repeat top center;
   background-size: contain;
   width: 260px;
   height: 58px;
