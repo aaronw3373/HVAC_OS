@@ -40,8 +40,6 @@ p {
 }
 a {
   color: #42DCA3;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 a:hover,
@@ -85,8 +83,6 @@ a:focus {
   color:black;
 }
 .navbar-custom .nav li a {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 .logo:hover, .navbar-custom .nav li a:hover {
@@ -134,8 +130,6 @@ a:focus {
     border-bottom: none;
     letter-spacing: 1px;
     background-color: rgba(255, 255, 255, 0.9);
-    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
@@ -153,8 +147,6 @@ a:focus {
   color: black;
   background: url(../images/hvac1.jpg) no-repeat bottom center scroll;
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
@@ -200,8 +192,6 @@ a:focus {
   font-size: 40px;
   color: black;
   background: transparent;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 .btn-circle:hover,
@@ -213,7 +203,6 @@ a:focus {
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
   -moz-transition-duration: 1s;
 }
 .btn-circle:hover i.animated {
@@ -240,20 +229,6 @@ a:focus {
     transform: scale(1);
   }
 }
-@-moz-keyframes pulse {
-  0 {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-}
 .about-section{
     padding: 100px 50px;
   }
@@ -269,8 +244,6 @@ a:focus {
   color: white;
   /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
@@ -279,18 +252,16 @@ a:focus {
     padding: 100px 50px;
   }
   .what-section {
-    padding: 100px 50px;
+    padding: 150px 50px;
   }
   .contact-section{
-    padding: 100px 50px;
+    padding: 150px 50px;
   }
 }
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
@@ -340,6 +311,9 @@ footer p {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
+}
+img::-moz-selection {
+  background: transparent;
 }
 img::selection {
   background: transparent;
