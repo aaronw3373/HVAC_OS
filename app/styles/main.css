@@ -378,5 +378,14 @@ body {
   .top-logo{
     width: 200px;
     height: 58px;
-   }
+  }
+  .about-section{
+    padding: 80px 20px;
+  }
+  .what-section {
+    padding: 80px 20px;
+  }
+  .contact-section{
+    padding: 80px 20px;
+  }
 }
