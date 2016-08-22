@@ -114,23 +114,30 @@ a:focus {
 }
 .page-scroll{
   font-size: 24px;
-  padding: 20px;
   height: 100%;
 }
 .links{
   font-size: 16px;
   height: 100%;
 }
+.links-in{
+  padding: 7px 0px;
+}
+
+@media (max-width: 767px) {
+  .nav li a:hover{
+    color: white;
+  }
+}
 @media (min-width: 768px) {
   .links{
     font-size: 16px;
-  vertical-align: center;
-  text-align: center;
-  padding-top: 22px;
-  height: 64px;
+    vertical-align: middle;
+    text-align: center;
+    height: 64px;
   }
   .navbar-custom {
-    padding: 20px 0;
+    padding: 15px 0;
     border-bottom: none;
     letter-spacing: 1px;
     background-color: rgba(255, 255, 255, 0.9);
