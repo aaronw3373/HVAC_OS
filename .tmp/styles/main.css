@@ -252,7 +252,7 @@ a:focus {
     padding: 100px 50px;
   }
   .what-section {
-    padding: 150px 50px;
+    padding: 180px 60px;
   }
   .contact-section{
     padding: 150px 50px;
@@ -348,3 +348,18 @@ body {
   width: 260px;
   height: 58px;
  }
+@media (max-width: 500px) {
+  .top-logo{
+    width: 200px;
+    height: 58px;
+  }
+  .about-section{
+    padding: 80px 20px;
+  }
+  .what-section {
+    padding: 80px 20px;
+  }
+  .contact-section{
+    padding: 80px 20px;
+  }
+}
