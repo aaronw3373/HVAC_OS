@@ -158,7 +158,7 @@ a:focus {
   padding: 0;
   text-align: center;
   color: black;
-  background: url(../images/hvac1.jpg) no-repeat bottom center scroll;
+  background: url(../images/hvac12.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -288,10 +288,6 @@ a:focus {
 .what-head{
   text-align: center;
 }
-.bullets{
-  padding-left: 50px;
-  padding-right: 50px;
-}
 @media (min-width: 767px) {
   .about-section{
     padding: 100px 50px;
@@ -302,6 +298,10 @@ a:focus {
   .contact-section{
     padding: 150px 50px;
   }
+  .bullets{
+  padding-left: 50px;
+  padding-right: 50px;
+}
 }
 .btn {
   text-transform: uppercase;
